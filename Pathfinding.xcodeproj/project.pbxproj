@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DD86673222DC496008052C7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD86672222DC496008052C7 /* Constants.swift */; };
+		3DD86675222DC5D2008052C7 /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD86674222DC5D2008052C7 /* Algorithm.swift */; };
 		3DFE861F222B2B2E00CB0727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE861E222B2B2E00CB0727 /* AppDelegate.swift */; };
 		3DFE8621222B2B2E00CB0727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8620222B2B2E00CB0727 /* ViewController.swift */; };
-		3DFE8624222B2B2E00CB0727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8622222B2B2E00CB0727 /* Main.storyboard */; };
-		3DFE8626222B2B3000CB0727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8625222B2B3000CB0727 /* Assets.xcassets */; };
 		3DFE8629222B2B3000CB0727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8627222B2B3000CB0727 /* LaunchScreen.storyboard */; };
 		3DFE8634222B2B3000CB0727 /* A_Star_InteractiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8633222B2B3000CB0727 /* A_Star_InteractiveTests.swift */; };
+		3DFE863F222B32C300CB0727 /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE863E222B32C300CB0727 /* NodeView.swift */; };
+		3DFE8641222BC1CC00CB0727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DFE8640222BC1CC00CB0727 /* Assets.xcassets */; };
+		3DFE8645222C341F00CB0727 /* Maze.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8642222C341F00CB0727 /* Maze.swift */; };
+		3DFE8646222C341F00CB0727 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8643222C341F00CB0727 /* Node.swift */; };
+		3DFE8647222C341F00CB0727 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8644222C341F00CB0727 /* Heap.swift */; };
+		3DFE8649222C342900CB0727 /* A_StarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE8648222C342900CB0727 /* A_StarTests.swift */; };
+		3DFE864B222C736100CB0727 /* AStarAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE864A222C736100CB0727 /* AStarAlgorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +33,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3DFE861B222B2B2E00CB0727 /* A_Star_Interactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A_Star_Interactive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD86672222DC496008052C7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3DD86674222DC5D2008052C7 /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		3DFE861B222B2B2E00CB0727 /* Pathfinding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pathfinding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFE861E222B2B2E00CB0727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DFE8620222B2B2E00CB0727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DFE8623222B2B2E00CB0727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3DFE8625222B2B3000CB0727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DFE8628222B2B3000CB0727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DFE862A222B2B3000CB0727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DFE862F222B2B3000CB0727 /* A_Star_InteractiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = A_Star_InteractiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DFE862F222B2B3000CB0727 /* PathfindingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathfindingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DFE8633222B2B3000CB0727 /* A_Star_InteractiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = A_Star_InteractiveTests.swift; sourceTree = "<group>"; };
 		3DFE8635222B2B3000CB0727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DFE863E222B32C300CB0727 /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		3DFE8640222BC1CC00CB0727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DFE8642222C341F00CB0727 /* Maze.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Maze.swift; sourceTree = "<group>"; };
+		3DFE8643222C341F00CB0727 /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		3DFE8644222C341F00CB0727 /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		3DFE8648222C342900CB0727 /* A_StarTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A_StarTests.swift; sourceTree = "<group>"; };
+		3DFE864A222C736100CB0727 /* AStarAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AStarAlgorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +73,9 @@
 		3DFE8612222B2B2E00CB0727 = {
 			isa = PBXGroup;
 			children = (
-				3DFE861D222B2B2E00CB0727 /* A_Star_Interactive */,
-				3DFE8632222B2B3000CB0727 /* A_Star_InteractiveTests */,
+				3DFE8640222BC1CC00CB0727 /* Assets.xcassets */,
+				3DFE861D222B2B2E00CB0727 /* Pathfinding */,
+				3DFE8632222B2B3000CB0727 /* PathfindingTests */,
 				3DFE861C222B2B2E00CB0727 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,40 +83,46 @@
 		3DFE861C222B2B2E00CB0727 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DFE861B222B2B2E00CB0727 /* A_Star_Interactive.app */,
-				3DFE862F222B2B3000CB0727 /* A_Star_InteractiveTests.xctest */,
+				3DFE861B222B2B2E00CB0727 /* Pathfinding.app */,
+				3DFE862F222B2B3000CB0727 /* PathfindingTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3DFE861D222B2B2E00CB0727 /* A_Star_Interactive */ = {
+		3DFE861D222B2B2E00CB0727 /* Pathfinding */ = {
 			isa = PBXGroup;
 			children = (
+				3DFE864A222C736100CB0727 /* AStarAlgorithm.swift */,
+				3DFE8644222C341F00CB0727 /* Heap.swift */,
+				3DFE8642222C341F00CB0727 /* Maze.swift */,
+				3DFE8643222C341F00CB0727 /* Node.swift */,
 				3DFE861E222B2B2E00CB0727 /* AppDelegate.swift */,
 				3DFE8620222B2B2E00CB0727 /* ViewController.swift */,
-				3DFE8622222B2B2E00CB0727 /* Main.storyboard */,
-				3DFE8625222B2B3000CB0727 /* Assets.xcassets */,
 				3DFE8627222B2B3000CB0727 /* LaunchScreen.storyboard */,
 				3DFE862A222B2B3000CB0727 /* Info.plist */,
+				3DFE863E222B32C300CB0727 /* NodeView.swift */,
+				3DD86672222DC496008052C7 /* Constants.swift */,
+				3DD86674222DC5D2008052C7 /* Algorithm.swift */,
 			);
-			path = A_Star_Interactive;
+			path = Pathfinding;
 			sourceTree = "<group>";
 		};
-		3DFE8632222B2B3000CB0727 /* A_Star_InteractiveTests */ = {
+		3DFE8632222B2B3000CB0727 /* PathfindingTests */ = {
 			isa = PBXGroup;
 			children = (
+				3DFE8648222C342900CB0727 /* A_StarTests.swift */,
 				3DFE8633222B2B3000CB0727 /* A_Star_InteractiveTests.swift */,
 				3DFE8635222B2B3000CB0727 /* Info.plist */,
 			);
-			path = A_Star_InteractiveTests;
+			path = PathfindingTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3DFE861A222B2B2E00CB0727 /* A_Star_Interactive */ = {
+		3DFE861A222B2B2E00CB0727 /* Pathfinding */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DFE8638222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "A_Star_Interactive" */;
+			buildConfigurationList = 3DFE8638222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "Pathfinding" */;
 			buildPhases = (
 				3DFE8617222B2B2E00CB0727 /* Sources */,
 				3DFE8618222B2B2E00CB0727 /* Frameworks */,
@@ -111,14 +132,14 @@
 			);
 			dependencies = (
 			);
-			name = A_Star_Interactive;
+			name = Pathfinding;
 			productName = A_Star_Interactive;
-			productReference = 3DFE861B222B2B2E00CB0727 /* A_Star_Interactive.app */;
+			productReference = 3DFE861B222B2B2E00CB0727 /* Pathfinding.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3DFE862E222B2B3000CB0727 /* A_Star_InteractiveTests */ = {
+		3DFE862E222B2B3000CB0727 /* PathfindingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3DFE863B222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "A_Star_InteractiveTests" */;
+			buildConfigurationList = 3DFE863B222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "PathfindingTests" */;
 			buildPhases = (
 				3DFE862B222B2B3000CB0727 /* Sources */,
 				3DFE862C222B2B3000CB0727 /* Frameworks */,
@@ -129,9 +150,9 @@
 			dependencies = (
 				3DFE8631222B2B3000CB0727 /* PBXTargetDependency */,
 			);
-			name = A_Star_InteractiveTests;
+			name = PathfindingTests;
 			productName = A_Star_InteractiveTests;
-			productReference = 3DFE862F222B2B3000CB0727 /* A_Star_InteractiveTests.xctest */;
+			productReference = 3DFE862F222B2B3000CB0727 /* PathfindingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -153,7 +174,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3DFE8616222B2B2E00CB0727 /* Build configuration list for PBXProject "A_Star_Interactive" */;
+			buildConfigurationList = 3DFE8616222B2B2E00CB0727 /* Build configuration list for PBXProject "Pathfinding" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -166,8 +187,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DFE861A222B2B2E00CB0727 /* A_Star_Interactive */,
-				3DFE862E222B2B3000CB0727 /* A_Star_InteractiveTests */,
+				3DFE861A222B2B2E00CB0727 /* Pathfinding */,
+				3DFE862E222B2B3000CB0727 /* PathfindingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -177,9 +198,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DFE8641222BC1CC00CB0727 /* Assets.xcassets in Resources */,
 				3DFE8629222B2B3000CB0727 /* LaunchScreen.storyboard in Resources */,
-				3DFE8626222B2B3000CB0727 /* Assets.xcassets in Resources */,
-				3DFE8624222B2B2E00CB0727 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DFE8621222B2B2E00CB0727 /* ViewController.swift in Sources */,
+				3DD86675222DC5D2008052C7 /* Algorithm.swift in Sources */,
+				3DFE8646222C341F00CB0727 /* Node.swift in Sources */,
 				3DFE861F222B2B2E00CB0727 /* AppDelegate.swift in Sources */,
+				3DFE8647222C341F00CB0727 /* Heap.swift in Sources */,
+				3DFE8645222C341F00CB0727 /* Maze.swift in Sources */,
+				3DFE863F222B32C300CB0727 /* NodeView.swift in Sources */,
+				3DFE864B222C736100CB0727 /* AStarAlgorithm.swift in Sources */,
+				3DD86673222DC496008052C7 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DFE8634222B2B3000CB0727 /* A_Star_InteractiveTests.swift in Sources */,
+				3DFE8649222C342900CB0727 /* A_StarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,20 +243,12 @@
 /* Begin PBXTargetDependency section */
 		3DFE8631222B2B3000CB0727 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3DFE861A222B2B2E00CB0727 /* A_Star_Interactive */;
+			target = 3DFE861A222B2B2E00CB0727 /* Pathfinding */;
 			targetProxy = 3DFE8630222B2B3000CB0727 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3DFE8622222B2B2E00CB0727 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DFE8623222B2B2E00CB0727 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DFE8627222B2B3000CB0727 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,7 +429,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A_Star_Interactive.app/A_Star_Interactive";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathfinding.app/Pathfinding";
 			};
 			name = Debug;
 		};
@@ -430,14 +450,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/A_Star_Interactive.app/A_Star_Interactive";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathfinding.app/Pathfinding";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3DFE8616222B2B2E00CB0727 /* Build configuration list for PBXProject "A_Star_Interactive" */ = {
+		3DFE8616222B2B2E00CB0727 /* Build configuration list for PBXProject "Pathfinding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DFE8636222B2B3000CB0727 /* Debug */,
@@ -446,7 +466,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DFE8638222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "A_Star_Interactive" */ = {
+		3DFE8638222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "Pathfinding" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DFE8639222B2B3000CB0727 /* Debug */,
@@ -455,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DFE863B222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "A_Star_InteractiveTests" */ = {
+		3DFE863B222B2B3000CB0727 /* Build configuration list for PBXNativeTarget "PathfindingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3DFE863C222B2B3000CB0727 /* Debug */,
